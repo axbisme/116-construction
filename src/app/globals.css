@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f8f5f0;
+  --foreground: #241d18;
+  --primary: #7a2520;
+  --secondary: #efe7dc;
+  --primary-accent: #5f1d18;
+  --foreground-accent: #443932;
+  --hero-background: #f2ece4;
+  --muted: #6d6158;
+  --border: #e2d7ca;
+  --soft: #f4eee6;
+  --card-shadow: 0 32px 72px -42px rgba(38, 25, 16, 0.4);
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(194, 171, 142, 0.12), transparent 28%),
+    linear-gradient(180deg, #f8f5f0 0%, #f6f1ea 100%);
+  color: var(--foreground);
+  font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, 'Times New Roman', serif;
+  letter-spacing: -0.03em;
+}
+
+::selection {
+  background: rgba(122, 37, 32, 0.18);
+}
+
+@layer utilities {
+  .shadow-card {
+    box-shadow: var(--card-shadow);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}

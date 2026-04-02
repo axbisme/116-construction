@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <rect width="1600" height="1000" fill="#ECE4DA"/>
+  <rect x="28" y="28" width="1544" height="944" rx="28" fill="#F9F6F1" stroke="#C9B8A7" stroke-width="6" stroke-dasharray="18 16"/>
+  <rect x="140" y="160" width="1320" height="680" rx="28" fill="#E2D7CA"/>
+  <path d="M310 684L538 456L700 592L916 332L1258 684" stroke="#8B1E1E" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <rect x="456" y="288" width="184" height="132" rx="20" fill="#F9F6F1" stroke="#8B1E1E" stroke-width="10"/>
+  <circle cx="1120" cy="380" r="82" fill="#F9F6F1" stroke="#8B1E1E" stroke-width="10"/>
+  <text x="800" y="760" text-anchor="middle" fill="#312822" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="700">Deck or Porch Photo</text>
+  <text x="800" y="826" text-anchor="middle" fill="#6C5E52" font-family="Arial, Helvetica, sans-serif" font-size="28">Replace with porch/deck project image</text>
+  <text x="800" y="886" text-anchor="middle" fill="#8B1E1E" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="4">PLACEHOLDER</text>
+</svg>
